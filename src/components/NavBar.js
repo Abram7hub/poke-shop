@@ -7,10 +7,16 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="navbar-inner">
-        <Link to="/" className="brand">PokeShop</Link>
+        <Link to="/" className="brand">
+          PokeShop
+        </Link>
         <div className="links">
-          <NavLink to="/" className="link">Sklep</NavLink>
-          <NavLink to="/cart" className="link">Koszyk <span className="badge">{count}</span></NavLink>
+          <NavLink to="/" className="link">
+            Sklep
+          </NavLink>
+          <NavLink to="/cart" className="link">
+            Koszyk <span className="badge">{count}</span>
+          </NavLink>
         </div>
       </div>
     </nav>
